@@ -1,0 +1,47 @@
+{
+  "name": "BreakingBadApp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^13.1.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "immer": "^9.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "smoke-effect-react": "^1.0.5",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 5 chrome version",
+      "last 5 firefox version",
+      "last 5 safari version"
+    ]
+  }
+}
