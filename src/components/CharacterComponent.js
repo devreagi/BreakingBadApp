@@ -27,7 +27,7 @@ export function CharacterComponent() {
 
         searchText !== '' ? searchPerson() : getPerson()
 
-    }, [searchText])
+    }, [person, searchText])
 
     return (
         <Main>

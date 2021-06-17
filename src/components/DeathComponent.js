@@ -25,7 +25,7 @@ export function DeathComponent() {
 
         searchText !== '' ? searchPersonDeath() : getPersonDeath()
 
-    }, [searchText])
+    }, [person, searchText])
 
     return (
         <Main>
